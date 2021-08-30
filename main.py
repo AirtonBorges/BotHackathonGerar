@@ -11,8 +11,8 @@ import random
 
 BOT_KEY = os.getenv('BOT_KEY')
 
-QUESTION_CHANNEL = 881942999708336168
-QUIZ_CHANNEL = 881942837640462376
+QUESTION_CHANNEL =  os.getenv('QUESTION_CHANNEL')
+QUIZ_CHANNEL = os.getenv('QUIZ_CHANNEL')
 
 client = commands.Bot(command_prefix=["!"])
 
